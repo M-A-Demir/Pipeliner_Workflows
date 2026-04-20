@@ -30,8 +30,6 @@ for d in "${DIRS_TO_COMPRESS[@]}"; do
       continue
     fi
 
-
-    #srun python -m ccp_dcompress.scripts.run_compression --compression_scheme ${COMPRESSION_SCHEME} --unit "GB" --filepath ${DIR_TO_COMPRESS} --outdir ${OUTDIR}
     #srun emencode_compress -s ${scheme} -i ${d} -o ${OUTDIR} -u GB
 
     done
