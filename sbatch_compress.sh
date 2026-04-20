@@ -13,7 +13,6 @@ DIRS_TO_COMPRESS=("/dls/m12/data/2026/cm44187-1/spool/betagal/MotionCorr/job002/
 "/dls/m12/data/2026/cm44187-1/spool/betagal/MotionCorr/job002/Movies/GridSquare_27367464/Data"
 "/dls/m12/data/2026/cm44187-1/spool/betagal/MotionCorr/job002/Movies/GridSquare_27367177/Data")
 
-
 OUTDIR=/dls/m12/data/2025/cm40657-1/out_compressed
 COMPRESSION_SCHEMES=("terse" "pbzip2" "blosc-zstd" "blosc2-zstd")
 
